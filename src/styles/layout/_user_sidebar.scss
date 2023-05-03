@@ -1,0 +1,13 @@
+.flex_justify_content_end {
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+.flex-footer-for-width-12-component {
+  position: fixed;
+  width: 12%;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+}
