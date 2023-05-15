@@ -1,0 +1,34 @@
+.background-welcome-anonymous {
+  /*background-image: url('../../resources/background.jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.card-welcome-anonymous {
+  width: auto;
+  padding: 35px;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(10px);
+}
+
+.btn-welcome-anonymous {
+
+  border-radius: 0;
+  color: white;
+  background-color: #308efe;
+  border: none;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.card-welcome-anonymous > .p-card-body > .p-card-content {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.btn-welcome-anonymous:hover {
+  cursor: pointer;
+}

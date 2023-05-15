@@ -1,9 +1,9 @@
 import React, { forwardRef, useImperativeHandle, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Button } from 'primereact/button';
-import LOGO from '../resources/book-factory.jpg';
+import LOGO from '../resources/Book.png';
 import { Image } from 'primereact/image';
-import '../styles/layout/_topbar.scss';
+import '../styles/layouts/_topbar.scss';
 
 const AppTopbar = forwardRef((props, ref) => {
   const topbarmenuRef = useRef(null);

@@ -12,14 +12,6 @@ const Layout = () => {
 
   layoutState.overlayMenuActive = false;
 
-  useEffect(() => {
-    console.log(layoutConfig);
-  }, [layoutConfig]);
-
-  useEffect(() => {
-    console.log(layoutState);
-  }, [layoutState]);
-
   const blockBodyScroll = () => {
     DomHandler.addClass(
       document.getElementsByClassName(containerClass!).item(0)! as HTMLElement,
@@ -61,14 +53,14 @@ const Layout = () => {
   return (
     <React.Fragment>
       <header>
-        <title>EESTEC</title>
+        <title>Book factory</title>
         <meta charSet="UTF-8" />
-        <meta name="description" content="EESTEC application" />
+        <meta name="description" content="Book factory application" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta property="og:type" content="website"></meta>
-        <meta property="og:title" content="EESTEC LC ZAGREB"></meta>
-        <meta property="og:description" content="EESTEC LC Zagreb web apliaction" />
+        <meta property="og:title" content="Book factor"></meta>
+        <meta property="og:description" content="Book factor web apliaction" />
         <meta property="og:ttl" content="604800"></meta>
         <link rel="icon" href={`/favicon.ico`} type="image/x-icon"></link>
       </header>

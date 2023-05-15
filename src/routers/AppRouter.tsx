@@ -7,15 +7,18 @@ import { HashRouter } from 'react-router-dom';
 import Layout from '../layouts/layout';
 import { LayoutProvider } from '../layouts/context/LayoutContext';
 import '../styles/themes/book-factory-theme/theme.css';
-import '../styles/layout/layout.scss';
+import '../styles/layouts/layout.scss';
 import 'primeflex/primeflex.css';
+import { RenderOnAnonymous } from '../service/security/Autentification';
 
 const AppRouter = () => {
   return (
     <HashRouter>
-      <LayoutProvider>
-        <Layout />
-      </LayoutProvider>
+      <RenderOnAnonymous>
+        <LayoutProvider>
+          <Layout />
+        </LayoutProvider>
+      </RenderOnAnonymous>
     </HashRouter>
   );
 };
