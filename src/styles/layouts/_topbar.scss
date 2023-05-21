@@ -10,7 +10,8 @@
   transition: left 2s;
   display: flex;
   align-items: center;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .02), 0 0 2px rgba(0, 0, 0, .05), 0 1px 4px rgba(0, 0, 0, .08);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.02), 0 0 2px rgba(0, 0, 0, 0.05),
+    0 1px 4px rgba(0, 0, 0, 0.08);
 
   .layout-top-bar-logo {
     display: flex;
@@ -22,13 +23,13 @@
 
     img {
       height: 2.5rem;
-      margin-right: .5rem;
+      margin-right: 0.5rem;
     }
 
     &:focus {
       outline: 0 none;
       outline-offset: 0;
-      transition: box-shadow .2s;
+      transition: box-shadow 0.2s;
       box-shadow: var(--focus-ring);
     }
   }
@@ -53,7 +54,7 @@
     &:focus {
       outline: 0 none;
       outline-offset: 0;
-      transition: box-shadow .2s;
+      transition: box-shadow 0.2s;
       box-shadow: var(--focus-ring);
     }
 
@@ -115,7 +116,8 @@
 
     .layout-top-bar-menu {
       background-color: var(--surface-overlay);
-      box-shadow: 0 3px 5px rgba(0, 0, 0, .02), 0 0 2px rgba(0, 0, 0, .05), 0 1px 4px rgba(0, 0, 0, .08);
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.02), 0 0 2px rgba(0, 0, 0, 0.05),
+        0 1px 4px rgba(0, 0, 0, 0.08);
       border-radius: 12px;
       padding: 1rem;
       top: 5rem;
@@ -138,7 +140,7 @@
 
         i {
           font-size: 1rem;
-          margin-right: .5rem;
+          margin-right: 0.5rem;
         }
 
         span {
